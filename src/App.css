@@ -35,3 +35,12 @@
   font-size: calc(10px + 2vmin);
   border-radius: 10px;
 }
+.Count-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.Count-Line {
+  width: 90vw;
+  color: red;
+}
