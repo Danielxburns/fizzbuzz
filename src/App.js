@@ -29,7 +29,7 @@ class App extends React.Component {
     this.delay(fizzbuzz(), (x) => {
       this.setState({
         showComponent: true,
-        numbers: [...this.state.numbers, x]
+        numbers: [...this.state.numbers, x + ', ']
       })
     })
   };
