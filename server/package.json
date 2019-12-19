@@ -1,7 +1,6 @@
 {
   "dependencies": {
-    "express": "*",
-    "path": "^0.12.7"
+    "express": "*"
   },
   "scripts": {
     "start": "node index.js",
