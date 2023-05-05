@@ -40,16 +40,17 @@ class App extends React.Component {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>FizzBuzz!</h1>
-        <div className="Count-wrapper">
-          {this.state.showComponent ? <Count numbers={this.state.numbers}/> : null} 
-        </div>
+
         <h3>A classic programming interview question</h3>
         <p>
         Write a program that prints the numbers from 1 to 100. If it’s a multiple of 3, it should print “Fizz”. If it’s a multiple of 5, it should print “Buzz”. If it’s a multiple of 3 and 5, it should print “FizzBuzz”.
         </p>
         <div>
           <CountButton addCount={this.handleClick} />
-        </div>
+        </div> 
+        <div className="Count-wrapper">
+        {this.state.showComponent ? <Count numbers={this.state.numbers}/> : null} 
+      </div>
       </header>
     </div>
     );
